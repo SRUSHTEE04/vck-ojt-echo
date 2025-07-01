@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #52c4f1;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 h1 {
@@ -63,6 +64,34 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #14e833;
   }
+}
+
+  
+  .menu-icon {
+    display: block;
+  }
+
+
+#content{
+  background-color: white;
+  margin: 35px 277px;
+  padding-left: 49px;
+  padding-right: 49px;
+  height: 505px;
+  width: 850px;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 1px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: left;
+  color: black;
+
+}
+@media screen and (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+    }
+
 }

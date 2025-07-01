@@ -1,9 +1,10 @@
 import Header from "../components/Header/Header";
-
+import Footer from "../components/Footer/Footer";
 const ContactPage= () =>{
     return(
-        <>
+        <div>
         <Header/>
+          <div id="content"className="scroll">
         <h1 text-align="center">Contact Us</h1>
         <section>
             <p>
@@ -57,10 +58,8 @@ const ContactPage= () =>{
         <p>[A contact form with fields for Name, Email, Subject, Message can be added here.]</p>
 
        </section>
-       
-
-
-        </>
+    </div>
+    </div>
     )
 }
 export default ContactPage; 
