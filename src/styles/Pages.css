@@ -62,3 +62,33 @@
     color: #555;
     margin-bottom: 15px;
 }
+@media (max-width: 768px) {
+  #content{
+    margin: 15px auto;
+    /* Slightly less margin on smaller screens */
+    padding: 15px;
+    /* Slightly less padding */
+  }
+
+  /* Home Page - Hero Section */
+  .hero-section {
+    height: 250px;
+    /* Shorter banner on smaller screens */
+  }
+
+  .hero-overlay-text h1 {
+    font-size: 2.2em;
+    /* Smaller heading */
+  }
+
+  .hero-overlay-text p {
+    font-size: 1em;
+    /* Smaller paragraph */
+  }
+
+  .hero-btn {
+    padding: 10px 20px;
+    /* Smaller button */
+    font-size: 1em;
+  }
+}
