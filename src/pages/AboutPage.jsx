@@ -5,7 +5,7 @@ const AboutPage = () =>{
     return(
         <div>
             <Header/>
-              <div id="content"className="scroll">
+            <div id="content"className="scroll">
             <h1>About Vivekanand College</h1>
             <section>
                 <p>
@@ -39,6 +39,7 @@ const AboutPage = () =>{
 
         </div>
         </div>
-    )
+  
+  );
 }
 export default AboutPage; 

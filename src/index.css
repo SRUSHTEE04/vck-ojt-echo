@@ -73,7 +73,6 @@ button:focus-visible {
     display: block;
   }
 
-
 #content{
   background-color: white;
   margin: 35px 277px;
@@ -90,6 +89,10 @@ button:focus-visible {
 
 }
 @media screen and (max-width: 768px) {
+  #content{
+  margin: 15px auto;
+  padding: 15px;
+  }
   .desktop-nav {
     display: none;
     }
