@@ -10,3 +10,9 @@
   font-weight: 500;
   font-size: 14px;
 }
+@media(width:768px) {
+  .footer{
+  padding:"15px";
+  }
+  
+}

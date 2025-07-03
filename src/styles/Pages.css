@@ -63,28 +63,42 @@
     color: #555;
     margin-bottom: 15px;
 }
+/* 🖥 Media Queries for Responsiveness */
+
 @media (max-width: 768px) {
-
-
-  /* Home Page - Hero Section */
   .hero-section {
     height: 250px;
-    /* Shorter banner on smaller screens */
   }
 
-  .hero-overlay-text h1 {
-    font-size: 2.2em;
-    /* Smaller heading */
+  .overlay-text h1 {
+    font-size: 2em;
   }
 
-  .hero-overlay-text p {
+  .overlay-text p {
     font-size: 1em;
-    /* Smaller paragraph */
   }
 
   .hero-btn {
     padding: 10px 20px;
-    /* Smaller button */
     font-size: 1em;
+  }
+
+  .scroll {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay-text h1 {
+    font-size: 1.6em;
+  }
+
+  .overlay-text p {
+    font-size: 0.9em;
+  }
+
+  .hero-btn {
+    padding: 8px 16px;
+    font-size: 0.9em;
   }
 }
